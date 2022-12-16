@@ -1,0 +1,53 @@
+h2, h1 {
+    color: rgb(55, 45, 110);
+    text-align: center;
+}
+
+.bolgeler {
+    list-style-type: none;
+}
+
+span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    /* background-color: aquamarine; */
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: red;
+}
+
+.alarm {
+    animation: blink 1s linear infinite;
+    display: inherit;
+    width: inherit;
+    height: inherit;
+    border: inherit;
+    margin-right: inherit;
+    color: #a1d0f1;
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    background-color: rgb(255, 0, 25);
+    padding: 15px;
+    text-align: center;
+    line-height: 20px;
+}
